@@ -1,0 +1,10 @@
+{
+  "name": "usb-relay-hid",
+  "version": "1.0.0",
+  "description": "usb relay hid library",
+  "main": "USBRelay.js",
+  "author": "Artur Nowakowski",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  }
+}

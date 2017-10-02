@@ -286,7 +286,7 @@ Turn OFF all relay channels on the USB-Relay-Device
 
 
 
-#### api.getStatus() 
+#### api.getStatus(deviceHandler) 
 
 Get state of all channels of the  USB-Relay-Device
 
@@ -297,7 +297,7 @@ Get state of all channels of the  USB-Relay-Device
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-|  | `deviceHandler`  |  | &nbsp; |
+| deviceHandler | `deviceHandler`  | device handler which usb relay device your want to get status | &nbsp; |
 
 
 
@@ -306,4 +306,3 @@ Get state of all channels of the  USB-Relay-Device
 
 
 -  TODO
-

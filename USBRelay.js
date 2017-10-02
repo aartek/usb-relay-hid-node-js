@@ -159,7 +159,7 @@ var USBRelay = (function(api){
 
     /**
 	 * Get state of all channels of the  USB-Relay-Device
-     * @param {deviceHandler}
+     * @param {deviceHandler} deviceHandler device handler which usb relay device your want to get status
      * @returns TODO
      */
 	api.getStatus = function(deviceHandler){

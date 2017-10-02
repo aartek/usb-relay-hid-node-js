@@ -57,7 +57,7 @@ var USBRelay = (function(api){
 
     /**
 	 * Get the list of available devices
-     * @returns {deviceInfo} List of devices containing devicePtr - pointer to the device, serialNumber - device serial number, type - number of relays
+     * @returns {deviceInfo[]} List of devices containing properties `devicePtr` - pointer to the device, `serialNumber` - device serial number, `type` - number of relays
      */
 	api.listDevices = function(){
 		let list = [];

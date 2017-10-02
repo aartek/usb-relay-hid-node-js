@@ -73,7 +73,7 @@ Get the list of available devices
 ##### Returns
 
 
-- `deviceInfo`  List of devices containing devicePtr - pointer to the device, serialNumber - device serial number, type - number of relays
+- `Array[deviceInfo]`  List of devices containing properties `devicePtr` - pointer to the device, `serialNumber` - device serial number, `type` - number of relays
 
 
 
